@@ -8,7 +8,7 @@ env:
   RESOURCE-GROUP: ${{secret.AZURE_CREDENTIALS.resourceGroup}}
   LOCATION: westeurope
   TEMPLATE-FILE: infra/webapp.bicep
-  SUBSCRIPTION-ID: ${{secret.AZURE_CREDENTIALS}}
+  SUBSCRIPTION-ID: ${{secret.AZURE_CREDENTIALS.subscriptionId}}
   WEBAPP-NAME: eshoponweb-webapp-sams
 
 
