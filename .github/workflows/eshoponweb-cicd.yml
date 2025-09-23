@@ -10,6 +10,10 @@ env:
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: d8d1921f-314f-4a84-9bd9-76dec95f1d28
   WEBAPP-NAME: eshoponweb-webapp-sams
+  clientId: ea26a19d-af36-4ca1-9de5-18fa5b0dac0e
+  clientSecret: CTI8Q~X4sV4qOVd.ncY9hvkyrwA1OlgjfTcimaTq
+  subscriptionId: d8d1921f-314f-4a84-9bd9-76dec95f1d28
+  tenantId: 74826dde-c95c-4be1-9fcb-38d2b402c58b
 
 
 jobs:
